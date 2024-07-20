@@ -54,8 +54,8 @@ const BlogContent = () => {
                 Coaching for Authors
               </h3>
               <h6 className="text-xl my-6">
-                Description: Will you write that book this second half? If yes,
-                you should plan how you'll do it from today.
+                Will you write that book this second half? If yes, you should
+                plan how you'll do it from today...
               </h6>
             </div>
             <Link className="" to="/blogContentPg">
