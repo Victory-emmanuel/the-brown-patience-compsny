@@ -1,4 +1,4 @@
-import { Email } from "@mui/icons-material";
+import Email from "../components/email";
 import MySlider from "../components/mySlider";
 import Section2 from "../components/testimonialPgSects/section2";
 
