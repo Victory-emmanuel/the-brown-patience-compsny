@@ -74,7 +74,10 @@ const NavBar = () => {
       ],
     },
     { page: "Books", href: "/book" },
-    { page: "Blog", href: "/blog" },
+    {
+      page: "Blog",
+      href: "https://my-blog-pi-two.vercel.app/",
+    },
     { page: "Community", href: "/community" },
   ];
 

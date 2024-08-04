@@ -65,7 +65,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="https://my-blog-pi-two.vercel.app/" element={<Blog />} />
           <Route path="/book" element={<Book />} />
 
           <Route
