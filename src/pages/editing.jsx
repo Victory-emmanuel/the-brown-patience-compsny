@@ -12,7 +12,13 @@ const Editing = () => {
       <div id="service">
         {/* HERO */}
         <section id="hero" className=" hero">
-          <div className="grid ss:py-40 xx:py-32 text-center img ss:px-12 xx:px-6 ">
+          <div
+            // style={{
+            //   background: ` url("https://i.postimg.cc/K8XNPK0r/Untitled-design-21.jpg")
+            //   no-repeat center center/cover`,
+            // }}
+            className="grid ss:py-40 xx:py-32 text-center img ss:px-12 xx:px-6 "
+          >
             <h1 className="sm:text-6xl xx:text-3xl sm:font-extrabold xx:font-bold text-white xx:py-3  ss:py-6">
               Book Writing and Editing
             </h1>

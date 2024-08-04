@@ -51,8 +51,9 @@ function App() {
             <button
               key={opt.text}
               onClick={() => setTheme(opt.text)}
-              className={`w-8 h-8 leading-9 text-xl rounded-full m-1 ${theme === opt.text && "  text-accent"
-                }`}
+              className={`w-8 h-8 leading-9 text-xl rounded-full m-1 ${
+                theme === opt.text && "  text-accent"
+              }`}
             >
               <ion-icon name={opt.icon}></ion-icon>
             </button>
