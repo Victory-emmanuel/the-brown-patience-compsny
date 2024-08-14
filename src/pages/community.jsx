@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Instagram } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
@@ -152,7 +153,7 @@ const community = () => {
               }}
               className=" mb-12 text-center text-2xl xx:hidden ss:inline-block font-bold text-secondary dark:text-white md:text-4xl"
             >
-              Recommended Book
+              Recommended Books
             </h2>
           </div>
           {/* 

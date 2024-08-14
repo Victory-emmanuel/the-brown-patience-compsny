@@ -57,16 +57,16 @@ const ContentWriting = () => {
                 </div>
                 <div className="">
                   <p className="mb-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
-                    Contents shouldn't trouble you. Outsource the writing of the
-                    newsletter, the blog, the website content 'including the
-                    existing web content you'd like to edit'. Carry on with your
+                    Content shouldn't trouble you. Outsource the writing of the
+                    newsletter, the blog, the website content, including the
+                    existing web content you'd like to edit. Carry on with your
                     key tasks; the content writer will handle the words.
                   </p>
                   <p className="mb-12 font-medium lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
                     Whether in South Africa or down in London, clients know
                     their readers want to read interesting pieces. So I take the
                     important message you want to get out there and transform it
-                    into an interesting piece — the one that keeps the reader
+                    into an interesting piece—the one that keeps the reader
                     reading, the one that clearly communicates the message, the
                     one that gets your reader to where you intended.
                   </p>

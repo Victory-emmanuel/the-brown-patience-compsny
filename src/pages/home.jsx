@@ -5,7 +5,7 @@ import {
   MyBook,
   SubSect,
   Testimonial,
-  Faq,
+  // Faq,
 } from "../components/components";
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
         <Testimonial />
         {/* <Step /> */}
         {/* FREQUENTLY ASKED QUESTION */}
-        <Faq />
+        {/* <Faq /> */}
       </div>
     </>
   );

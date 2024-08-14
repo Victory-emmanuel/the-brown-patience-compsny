@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 // import swcData from "../../data/swcData";
 
 const Section2 = () => {
+  Emmanuel;
   // const [currentSlide, setCurrentSlide] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -633,19 +634,21 @@ const Section2 = () => {
               </div>
               <div className="text-secondary dark:text-primary">
                 <p className="mb-4">
-                  "The Course began October 2, 2023. My expectations were to:
+                  “The Course began October 2, 2023. My expectations were to:
                 </p>
                 <p className="mb-4">
                   <ul className="">
                     <li>
                       1. Be able to get the Gospel message across more
                       effectively and report the impact of my NGO using
-                      relatable stories. — To be very honest, a lot of things
-                      have changed for me concerning my job. Even my boss
-                      noticed it and I had to confirm to him that I’d signed up
-                      for a storytelling class. Reporting now feels intimate
-                      because I use stories.
+                      relatable stories.
                     </li>
+                    <p className="my-4">
+                      — To be very honest, a lot of things have changed for me
+                      concerning my job. Even my boss noticed it and I had to
+                      confirm to him that I’d signed up for a storytelling
+                      class. Reporting now feels intimate because I use stories.
+                    </p>
                     <li>
                       2. The second reason I signed up was to be able to build a
                       community of friends, telling them stories that keep our
@@ -654,12 +657,12 @@ const Section2 = () => {
                   </ul>
                 </p>
                 <p className="mb-4">
-                  😀😀😍 — Somehow, as a result of the class, storytelling has
-                  found its way into every of my conversations. Now I’m
-                  sensitive to my environment; I pay attention to my
-                  experiences; and I share them with my WhatsApp community using
-                  stories. I am super charged to get back to writing letters to
-                  my email community again.",
+                  — Somehow, as a result of the class, storytelling has found
+                  its way into every of my conversations. Now I’m sensitive to
+                  my environment; I pay attention to my experiences; and I share
+                  them with my WhatsApp community using stories. I am super
+                  charged to get back to writing letters to my email community
+                  again.”
                 </p>
               </div>
             </div>

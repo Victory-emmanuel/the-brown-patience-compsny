@@ -533,7 +533,7 @@ const Editing = () => {
           </div>
         </section>
         {/*   Books I've Worked On */}
-        <div className="  mx-auto px-6 py-16 mb-8 md:px-12">
+        {/* <div className="  mx-auto px-6 py-16 mb-8 md:px-12">
           <div className="text-center">
             <h2
               style={{
@@ -627,7 +627,7 @@ const Editing = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* STEPS */}
         <div className="ss:px-12 xx:px-6 mt-12 py-16 mb-12 mx-auto ">
@@ -649,13 +649,12 @@ const Editing = () => {
                 This is the very first interaction where you and I get to talk.
                 You send me your draft for editing or collaboration, audio or
                 video files for transcription, or explain what you want to write
-                if you need the ghostwriting service. letter? Is it a blog? A
-                landing page? Product description?
+                if you need the ghostwriting service.
               </p>
               <p className=" text-white mt-4">
                 As we talk over the phone or interact via text, you help me
                 understand who you are and what you want to say, what service
-                you need, and how soon you want it done. It’s really that easy
+                you need, and how soon you want it done. It’s really that easy.
               </p>
             </div>
             <div className="bg-extraClr p-6 rounded-lg">
@@ -706,8 +705,7 @@ const Editing = () => {
                 work as we go. If you like how it’s going, we carry on.
               </p>
               <p className=" text-secondary mt-4">
-                Editing is the polishing phase. No, we can’t afford to let a
-                comma be in the wrong place.
+                No, we can’t afford to let a comma be in the wrong place.
               </p>
             </div>
             <div className="bg-extraClr p-6 rounded-lg">
