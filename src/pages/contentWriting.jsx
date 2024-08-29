@@ -63,8 +63,8 @@ const ContentWriting = () => {
                     key tasks; the content writer will handle the words.
                   </p>
                   <p className="mb-12 font-medium lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
-                    Whether in South Africa or down in London, clients know
-                    their readers want to read interesting pieces. So I take the
+                    Whether in South Africa, down in London, or anywhere in the
+                    world, people want to read interesting pieces. So I take the
                     important message you want to get out there and transform it
                     into an interesting piece—the one that keeps the reader
                     reading, the one that clearly communicates the message, the
@@ -137,7 +137,7 @@ const ContentWriting = () => {
                 </div>
                 <p className="text-secondary">
                   You approve the content or point out the changes you need.
-                  They get done, and
+                  They get done.
                 </p>
               </div>
               <div className="bg-extraClr p-6 rounded-lg">
@@ -145,16 +145,7 @@ const ContentWriting = () => {
                   <p className="text-2xl font-bold">Success</p>
                   <DoneAll sx={{ color: "#343434" }} />
                 </div>
-                <p className="text-secondary">
-                  We do it again and again. That's how I get to be your content
-                  writer.
-                  <i className="text-thin text-sm ml-1">
-                    Let's get to Step 1 right away.
-                    <Link to="https://wa.me/message/DOCQNYXAEPVDH1">
-                      <b className="text-accent"> Send me a message.</b>
-                    </Link>
-                  </i>
-                </p>
+                <p className="text-secondary">We do it again and again.</p>
               </div>
             </div>
             <div className="  grid place-content-center  ss:mt-12 xx:mt-6">

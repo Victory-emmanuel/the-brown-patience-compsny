@@ -17,44 +17,36 @@ const SubSect = () => {
               >
                 <div className="mb-6">
                   <h2 className=" font-bold mb-6 xx:text-2xl xs:text-3xl text-primary md:text-5xl dark:text-white">
-                    Monthly Subscription Package
+                    Monthly Subscription Packages
                   </h2>
-                  <p className="text-2xl xx:text-left xs:text-left ss:text-left xx:text-lg xs:text-xl text-primary mt-4 dark:text-white">
-                    Chooose your category as an author , a solo entreprenuer or
-                    both.
-                  </p>
                 </div>
                 <div className=" mt-12 xx:mb-4">
-                  <p className="text-2xl xx:text-xl xx:text-left text-primary font-semibold dark:text-white">
-                    Your investment:
-                  </p>
                   <ul className=" list-disc mt-4">
                     <li className="text-xl mb-8 xx:text-lg xx:text-left xs:text-left ss:text-left text-primary ">
-                      <del>N</del>15,000 / month -
                       <strong className="pl-2">
-                        Guidance for Writing Solopreneurs.
+                        Guidance for Writing Solopreneurs -
                       </strong>
+                      <del className="ml-2">N</del>15,000 / month
                       <p className=" p-6 rounded mt-2 ml-6  bg-primary text-sm font-semibold text-secondary">
-                        {/* <del>N</del>12,000 / month if you're subscribing for 12
-                        months at once - <strong>20% discount</strong>{" "} */}
-
                         <p className="mt-4">
                           With this package, you get proofreading, editing, and
-                          necessary revisions to your Christian content.
+                          necessary revisions to your christian content.{" "}
+                          <Link to="/guidianceForSolopreneur">
+                            <i className="font-bold ml-2 text-accent ">
+                              Learn More
+                            </i>
+                          </Link>
                         </p>
-                        <Link to="/guidianceForSolopreneur">
-                          <i className="font-bold text-accent ">Learn More</i>
-                        </Link>
                       </p>
                     </li>
                     <li className="text-xl xx:text-lg mb-4  xx:text-left xs:text-left ss:text-left text-primary ">
-                      <del>N</del>25,000 / month -
-                      <strong className="pl-2"> Coaching For Authors.</strong>
+                      <strong className="pl-2"> Coaching For Authors -</strong>
+                      <del className="ml-2">N</del>25,000 / month
                       <p className="  p-6 rounded mt-2 ml-6  bg-primary text-sm font-semibold text-secondary">
                         The coaching package where I guide you as you author
                         your book, chapter by chapter.
                         <Link to="/coachingForAuthors">
-                          <i className="font-bold text-accent ml-1">
+                          <i className="font-bold ml-2 text-accent ">
                             Learn More
                           </i>
                         </Link>
@@ -75,7 +67,7 @@ const SubSect = () => {
               <div className="grid  md:w-5/12 lg:w-6/12">
                 <div className="py-6">
                   <img
-                    src="https://i.postimg.cc/J7NtsV2v/IMG-20220722-WA0032-01-jpeg.jpg"
+                    src="https://i.postimg.cc/4NhcQSxY/C4A-5.png"
                     className="rounded-lg inline-block xx:hidden md:block "
                     width="640"
                     height="960"

@@ -49,7 +49,7 @@ const EditingSlider = () => {
         <div className="relative">
           <div className="">
             <h2 className="text-center text-2xl mb-12 font-bold text-gray-800 dark:text-white md:text-4xl">
-              What My Students Have To Say
+              What My Clients Have To Say
             </h2>
           </div>
 

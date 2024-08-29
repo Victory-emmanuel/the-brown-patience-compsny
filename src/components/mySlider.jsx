@@ -90,7 +90,7 @@ const MySlider = () => {
             {/* Oluwakemi-O. */}
             <div
               id="Oluwakemi-O."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">
@@ -122,7 +122,7 @@ const MySlider = () => {
             {/* Brown P. */}
             <div
               id="Brown-P."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">
@@ -152,7 +152,7 @@ const MySlider = () => {
             {/*Omodolapo L. */}
             <div
               id="Omodolapo-L."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">
@@ -192,7 +192,7 @@ const MySlider = () => {
             {/*Clementina-O.*/}
             <div
               id="Clementina-O."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">
@@ -236,7 +236,7 @@ const MySlider = () => {
             {/*Ireoluwa-O. */}
             <div
               id="Ireoluwa-O."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">
@@ -275,7 +275,7 @@ const MySlider = () => {
             {/*Tobiloba-O.*/}
             <div
               id="Tobiloba-O."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">
@@ -314,7 +314,7 @@ const MySlider = () => {
             {/*Brown-P.2 */}
             <div
               id="Brown-P.2"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">
@@ -355,7 +355,7 @@ const MySlider = () => {
             {/*David-I. */}
             <div
               id="David-I."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">
@@ -384,7 +384,7 @@ const MySlider = () => {
             {/*Omodolapo-L.2 */}
             <div
               id="Omodolapo-L.2"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">
@@ -420,7 +420,7 @@ const MySlider = () => {
             {/*Ireoluwa-O.2 */}
             <div
               id="Ireoluwa-O.2"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
+              className={`relative bg-primary rounded shadow-md dark:bg-black xx:p-2 ss:p-4`}
               // onClick={() => handleSlideClick()}
             >
               <div className="flex gap-4">

@@ -97,72 +97,77 @@ const CoachingForAuthors = () => {
             </div>
           </div>
           <div className=" bg-extraClr py-12 sm:px-12 xx:px-6 lg:px-24">
-            <p className="my-6 font-medium  ss:text-lg text-secondary text-left xx:text-base">
-              That, you see, is what this Coaching for Authors package is about.
-              I'll be the person that helps you share your message, the one that
-              helps you tell your story — so your readers will hear precisely
-              what you've been wanting them to hear, the message that's been
-              burning in your heart. I got this vision from an author named
-              Luke. The guy was a meticulous physician who brought that very
-              care to his writing. Right from the start of the book, he stated
-              its purpose. His reader was named Theophilus. And this author
-              wanted Theophilus to know the truth. So he wrote chapter after
-              chapter, explaining in gripping detail, employing the kind of
-              storytelling that renders you immersed. Everything drove towards
-              that goal — so Theophilus would know the truth. Centuries later,
-              we're also learning the truth from the book Luke wrote.
-            </p>
-            <p className="my-6 font-medium  ss:text-lg text-secondary text-left xx:text-base">
-              That's what books do; they embody truth. In the kind of format
-              that lasts forever. Long after the author has breathed their last,
-              the truth lives on. Do you know why you're so drawn to write this
-              book? Because people need this truth—the very one beating in your
-              chest; the one making you interested in this package. It's also
-              why I'll help you. You're Luke, writing to your Theophilus. I'll
-              be your helpmeet. I'll be the one who ensures Theophilus hears
-              precisely what Luke wants to say.
-            </p>
-            <h4 className="ss:text-2xl xx:text-xl">
-              What's the modality of this coaching? How do we do it?
-            </h4>
-            <p className="my-6 font-medium  ss:text-lg text-secondary text-left xx:text-base">
-              <ol className="list-decimal">
-                <li className="ml-6 mb-4">
-                  We start by talking about the Big W's? Why are you writing
-                  this book? Where did the drive to write it come from? Who are
-                  you writing to? What do you want your reader to take away from
-                  it? We could do this over a call, emails, or via chats. <br />
-                  There are H questions too: How far have you gone with the book
-                  or the planning of the book? How best do you think I can help
-                  you through this writing phase?
-                </li>
-                <li className="ml-6 mb-4">
-                  After I've understood your passion for the book, you and I
-                  will draw out an outline that works with your schedule (to be
-                  frank, you might need to make your schedule work with the
-                  outline or you may never find the time).
-                </li>
-                <li className="ml-6 mb-4">
-                  You begin writing. And you send a chapter (or more) a week.
-                </li>
-                <li className="ml-6 mb-4">
-                  As you send me the chapters, we talk about it. I tell you what
-                  I noticed, if it's all good or how much better it can get, how
-                  you can modify things, how to stick to appropriate tenses,
-                  punctuations, where a subtopic is necessary, where an
-                  illustration would aid understanding, and the repeated things
-                  that must be cut out. <br /> As your editor, I would have done
-                  these for you, but this Coaching package ensures you learn to
-                  do them yourself, so you can grow more confident in your
-                  writing and attack your subsequent writing or books with
-                  experience and more knowledge.
-                </li>
-                <li className="ml-6 mb-4">
-                  Bit by bit, as sure as the dawn, you'll complete your book.
-                </li>
-              </ol>
-            </p>
-            <p className="my-6 font-medium  lg:text-lg text-secondary lg:text-left md:text-lg md:text-center"></p>
+            <div className="">
+              <p className="my-6 font-medium  ss:text-lg text-secondary text-left xx:text-base">
+                That, you see, is what this Coaching for Authors package is
+                about. I'll be the person that helps you share your message, the
+                one that helps you tell your story — so your readers will hear
+                precisely what you've been wanting them to hear, the message
+                that's been burning in your heart. I got this vision from an
+                author named Luke. The guy was a meticulous physician who
+                brought that very care to his writing. Right from the start of
+                the book, he stated its purpose. His reader was named
+                Theophilus. And this author wanted Theophilus to know the truth.
+                So he wrote chapter after chapter, explaining in gripping
+                detail, employing the kind of storytelling that renders you
+                immersed. Everything drove towards that goal — so Theophilus
+                would know the truth. Centuries later, we're also learning the
+                truth from the book Luke wrote.
+              </p>
+              <p className="my-6 font-medium  ss:text-lg text-secondary text-left xx:text-base">
+                That's what books do; they embody truth. In the kind of format
+                that lasts forever. Long after the author has breathed their
+                last, the truth lives on. Do you know why you're so drawn to
+                write this book? Because people need this truth—the very one
+                beating in your chest; the one making you interested in this
+                package. It's also why I'll help you. You're Luke, writing to
+                your Theophilus. I'll be your helpmeet. I'll be the one who
+                ensures Theophilus hears precisely what Luke wants to say.
+              </p>
+              <h4 className="ss:text-2xl xx:text-xl">
+                What's the modality of this coaching? How do we do it?
+              </h4>
+              <p className="my-6 font-medium  ss:text-lg text-secondary text-left xx:text-base">
+                <ol className="list-decimal">
+                  <li className="ml-6 mb-4">
+                    We start by talking about the Big W's? Why are you writing
+                    this book? Where did the drive to write it come from? Who
+                    are you writing to? What do you want your reader to take
+                    away from it? We could do this over a call, emails, or via
+                    chats. <br />
+                    There are H questions too: How far have you gone with the
+                    book or the planning of the book? How best do you think I
+                    can help you through this writing phase?
+                  </li>
+                  <li className="ml-6 mb-4">
+                    After I've understood your passion for the book, you and I
+                    will draw out an outline that works with your schedule (to
+                    be frank, you might need to make your schedule work with the
+                    outline or you may never find the time).
+                  </li>
+                  <li className="ml-6 mb-4">
+                    You begin writing. And you send a chapter (or more) a week.
+                  </li>
+                  <li className="ml-6 mb-4">
+                    As you send me the chapters, we talk about it. I tell you
+                    what I noticed, if it's all good or how much better it can
+                    get, how you can modify things, how to stick to appropriate
+                    tenses, punctuations, where a subtopic is necessary, where
+                    an illustration would aid understanding, and the repeated
+                    things that must be cut out. <br /> As your editor, I would
+                    have done these for you, but this Coaching package ensures
+                    you learn to do them yourself, so you can grow more
+                    confident in your writing and attack your subsequent writing
+                    or books with experience and more knowledge.
+                  </li>
+                  <li className="ml-6 mb-4">
+                    Bit by bit, as sure as the dawn, you'll complete your book.
+                  </li>
+                </ol>
+              </p>
+              <p className="my-6 font-medium  lg:text-lg text-secondary lg:text-left md:text-lg md:text-center"></p>
+            </div>
+
             <div className="grid gap-8 row-gap-5 ss:grid-cols-2 lg:grid-cols-3">
               <div className="relative bg-primary p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
                 <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />

@@ -173,7 +173,7 @@ const About = () => {
               >
                 <div className=" inline-block border-solid border-r-2 border-r-accent dark:border-r-2 dark:border-r-primary ">
                   <h2 className="inline-block ss:text-7xl xx:text-5xl text-accent  ">
-                    05
+                    06
                   </h2>
                   <p className="inline-block pl-6 xs:pr-12 xx:pr-6 xs:text-base xx:text-xs dark:text-primary ">
                     Books <br />
@@ -182,7 +182,7 @@ const About = () => {
                 </div>
                 <div className="inline-block  ">
                   <h2 className="inline-block xs:pl-12 xx:pl-6 pr-6 ss:text-7xl xx:text-5xl text-accent ">
-                    05
+                    06
                   </h2>
                   <p className="inline-block xs:text-base xx:text-xs dark:text-primary  ">
                     Best <br />

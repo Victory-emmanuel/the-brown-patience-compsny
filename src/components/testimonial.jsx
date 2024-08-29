@@ -96,7 +96,7 @@ const Testimonial = () => {
                 {/* {gTD.map((items) => (
                   <div
                     key={items.id}
-                    className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                    className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                   >
                     <div className="flex gap-4">
                       <img
@@ -130,7 +130,7 @@ const Testimonial = () => {
                 {/* Oluwakemi-O. */}
                 <div
                   id="Oluwakemi-O."
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img
@@ -167,7 +167,7 @@ const Testimonial = () => {
                 {/* Brown P. */}
                 <div
                   id="Brown-P."
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img
@@ -204,7 +204,7 @@ const Testimonial = () => {
                 {/*Omodolapo L. */}
                 <div
                   id="Omodolapo-L."
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img
@@ -242,7 +242,7 @@ const Testimonial = () => {
                 {/*Clementina O. */}
                 <div
                   id="Clementina-O."
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img
@@ -286,7 +286,7 @@ const Testimonial = () => {
                 {/*Ireoluwa O. */}
                 <div
                   id="Ireoluwa-O."
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img
@@ -327,7 +327,7 @@ const Testimonial = () => {
                 {/*Tobiloba O. */}
                 <div
                   id="Tobiloba-O."
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img
@@ -369,7 +369,7 @@ const Testimonial = () => {
                 {/*Brown P.2*/}
                 <div
                   id="Brown-P.2"
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img
@@ -412,7 +412,7 @@ const Testimonial = () => {
                 {/*David I. */}
                 <div
                   id="David-I."
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img
@@ -447,7 +447,7 @@ const Testimonial = () => {
                 {/*Omodolapo L.2 */}
                 <div
                   id="Omodolapo-L.2"
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img
@@ -485,7 +485,7 @@ const Testimonial = () => {
                 {/*Ireoluwa O.2*/}
                 <div
                   id="Ireoluwa-O.2"
-                  className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                  className="aspect-auto ss:p-8 xx:p-2 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                 >
                   <div className="flex gap-4">
                     <img

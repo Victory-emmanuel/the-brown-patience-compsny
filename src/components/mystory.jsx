@@ -17,7 +17,7 @@ const MyStory = () => {
             <div className="m-auto py-6 grid place-content-center">
               <img
                 className=" justify-self-start lg:mr-12 md:mr-0"
-                src="https://i.postimg.cc/YSMKgSpT/untitled-1082-01-jpeg.jpg"
+                src="https://i.postimg.cc/dQpzFDWb/20240511-231906.jpg"
                 alt="brown patience"
                 style={{
                   borderRadius: "10px",

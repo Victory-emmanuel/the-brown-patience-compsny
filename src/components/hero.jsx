@@ -10,7 +10,7 @@ const Hero = () => {
               <div className="col-span-1">
                 <div className="relative w-full">
                   <img
-                    src="https://i.postimg.cc/dQpzFDWb/20240511-231906.jpg"
+                    src="https://i.postimg.cc/YSMKgSpT/untitled-1082-01-jpeg.jpg"
                     alt="shoes"
                     loading="lazy"
                     style={{

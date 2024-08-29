@@ -1,109 +1,24 @@
 /* eslint-disable react/no-unescaped-entities */
-import { useState, useEffect, useRef } from "react";
+
 // import swcData from "../../data/swcData";
 
 const Section2 = () => {
-  Emmanuel;
-  // const [currentSlide, setCurrentSlide] = useState(0);
-  const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
-  const [scrollLeft, setScrollLeft] = useState(0);
-  const sliderRef = useRef(null);
-
-  useEffect(() => {
-    const slider = sliderRef.current;
-    const handleMouseDown = (e) => {
-      setIsDragging(true);
-      setStartX(e.pageX - slider.offsetLeft);
-      setScrollLeft(slider.scrollLeft);
-    };
-
-    const handleMouseUp = () => {
-      setIsDragging(false);
-    };
-
-    const handleMouseMove = (e) => {
-      if (!isDragging) return;
-      e.preventDefault();
-      const x = e.pageX - slider.offsetLeft;
-      const walk = (x - startX) * 3;
-      slider.scrollLeft = scrollLeft - walk;
-    };
-
-    slider.addEventListener("mousedown", handleMouseDown);
-    slider.addEventListener("mouseup", handleMouseUp);
-    slider.addEventListener("mousemove", handleMouseMove);
-
-    return () => {
-      slider.removeEventListener("mousedown", handleMouseDown);
-      slider.removeEventListener("mouseup", handleMouseUp);
-      slider.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, [isDragging, startX, scrollLeft]);
-
-  // const handleSlideClick = (index) => {
-  //   setCurrentSlide(index);
-  // };
-
   return (
     <div style={{ cursor: "pointer" }} id="section2">
       <section id="mySlider" className="py-16 ss:px-12 xs:px-6 xx:px-2">
         <div className="relative">
           <div className="">
             <h2 className="text-center text-2xl mb-12 font-bold text-gray-800 dark:text-white md:text-4xl">
-              Story Writing Coaching Testimonials
+              Testimonial From Students
             </h2>
           </div>
 
-          <div id="slider-container" ref={sliderRef}>
-            {/* {swcData.map((items, index) => (
-              <div
-                key={items.id}
-                className={`slide ${
-                  index === currentSlide ? "active" : ""
-                } relative bg-primary rounded dark:bg-black`}
-                onClick={() => handleSlideClick(index)}
-              >
-                <div className="flex gap-4">
-                  <img
-                    className="w-12 h-12 rounded-full"
-                    src={items.img}
-                    alt=""
-                    width=""
-                    height=""
-                    loading="lazy"
-                  />
-                  <div className="mb-2">
-                    <h6 className="text-secondary dark:text-primary">
-                      {items.name}
-                    </h6>
-                    <p className="text-secondary dark:text-primary">
-                      {items.title}
-                    </p>
-                  </div>
-                </div>
-                <p className="text-secondary dark:text-primary text-base xx:text-sm">
-                  {items.content}
-                </p>
-              </div>
-            ))} */}
+          <div id=" ">
             {/*Sarah-Sesi-Godonu */}
-            <div
-              id="Sarah-Sesi-Godonu"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Sarah-Sesi-Godonu" className={`relative p-4 `}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/t4wVD9bk/41044-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Sarah-Sesi-Godonu
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -184,23 +99,13 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
+
             {/*Bukola-Adewuyi.*/}
-            <div
-              id="Bukola-Adewuyi."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Bukola-Adewuyi." className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/c1V9kkyB/2151100221-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Bukola Adewuyi.
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -225,23 +130,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*    Olamilekan Adenus*/}
-            <div
-              id="Olamilekan-Adenus"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Olamilekan-Adenus" className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/Pxvbmhxs/2150797626-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Olamilekan Adenus
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -274,23 +168,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Mercy Adegbenro.*/}
-            <div
-              id="Mercy-Adegbenro."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Mercy-Adegbenro." className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/CLT7sZkv/2151033971-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Mercy Adegbenro.
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -319,23 +202,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Timilehin-Oyinloye.*/}
-            <div
-              id="Timilehin-Oyinloye."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Timilehin-Oyinloye." className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/h47Mm8zz/2150709932-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Timilehin Oyinloye.
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -367,23 +239,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Surprise-Zihlavski*/}
-            <div
-              id="Surprise-Zihlavski"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Surprise-Zihlavski" className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/c1V9kkyB/2151100221-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Surprise Zihlavski
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -401,23 +262,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Kehinde-Adedoyin.*/}
-            <div
-              id="Kehinde-Adedoyin."
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Kehinde-Adedoyin." className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/h47Mm8zz/2150709932-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Kehinde Adedoyin.
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -446,23 +296,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Precious-Emakwu*/}
-            <div
-              id="Precious-Emakwu"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Precious-Emakwu" className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/t4wVD9bk/41044-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Precious Emakwu
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -490,23 +329,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Chimamanda-Okoye*/}
-            <div
-              id="Chimamanda-Okoye"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Chimamanda-Okoye" className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/c1V9kkyB/2151100221-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Chimamanda Okoye
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -529,23 +357,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Sharon-Akintade*/}
-            <div
-              id="Sharon-Akintade"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Sharon-Akintade" className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/hv7m702S/2151100149-1-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Sharon Akintade
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -569,23 +386,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Onyinyechi-CeeCee*/}
-            <div
-              id="Onyinyechi-CeeCee"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Onyinyechi-CeeCee" className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/CLT7sZkv/2151033971-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Onyinyechi CeeCee
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -610,23 +416,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Emmanuel-Orimogunje*/}
-            <div
-              id="Emmanuel-Orimogunje"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Emmanuel-Orimogunje" className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/h47Mm8zz/2150709932-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Emmanuel Orimogunje
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -666,23 +461,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Lily-Josiah*/}
-            <div
-              id="Lily-Josiah"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Lily-Josiah" className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/tgMtZ79N/2151100151-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Lily-Josiah
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>
@@ -690,10 +474,16 @@ const Section2 = () => {
               </div>
               <div className="text-secondary dark:text-primary">
                 <p className="mb-4">
-                  "The course began October 2, 2023 My expectations were to: 1.
-                  Become more creative and expressive in my writing. The course
-                  had shown me many ways to do that and be more. 2. Sharpen my
-                  writing skills and learn more.
+                  "The course began October 2, 2023 My expectations were to:
+                  <ul className="my-2 list-decimal ml-6">
+                    <li className="my-2">
+                      Become more creative and expressive in my writing. The
+                      course had shown me many ways to do that and be more.
+                    </li>
+                    <li className="">
+                      Sharpen my writing skills and learn more.
+                    </li>
+                  </ul>
                 </p>
                 <p className="mb-4">
                   The course has not only refreshed me on what good writing and
@@ -705,23 +495,12 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
+            <div className="border-t-accent border-t-8 border-dotted xs:w-[10%] xx:w-[5%] ss:my-12 xx:my-6 mx-auto h-0"></div>
             {/*Oreoluwa-Dawodu*/}
-            <div
-              id="Oreoluwa-Dawodu"
-              className={`relative bg-primary rounded shadow-md dark:bg-black`}
-              // onClick={() => handleSlideClick()}
-            >
+            <div id=" Oreoluwa-Dawodu" className={`relative p-4`}>
               <div className="flex gap-4">
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src="https://i.postimg.cc/Pxvbmhxs/2150797626-1.jpg"
-                  alt=""
-                  width=""
-                  height=""
-                  loading="lazy"
-                />
                 <div className="mb-2">
-                  <h6 className="text-secondary dark:text-primary">
+                  <h6 className="text-secondary text-xl font-semibold dark:text-primary">
                     Oreoluwa Dawodu
                   </h6>
                   <p className="text-secondary dark:text-primary">...</p>

@@ -362,6 +362,56 @@ const Book = () => {
               ></div>
             </div>
           </div>
+          <div
+            id="so-he-taught-me-no"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-12 sm:px-12 bg-white dark:bg-secondary "
+          >
+            <div className="bg sm:grid xx:hidden place-content-start">
+              <div
+                style={{
+                  boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                  background: `url("https://i.postimg.cc/5NdjwyCH/IMG-20240630-WA0018.jpg") no-repeat center center/cover`,
+                }}
+                className="sm:w-[24rem] sm:h-[32rem]  lg:w-[32rem] lg:h-[40rem] rounded-lg"
+              ></div>
+            </div>
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 p-6 xl:pr-6 lg:text-left ">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>Adeni - A StrongHold Broken </strong>
+                </h2>
+                <div className="bg sm:hidden xx:grid place-content-center">
+                  <div
+                    style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
+                    className="img4   ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
+                <div className="">
+                  <p className="mb-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    Raised in a markedly dysfunctional background, Adeni learned
+                    to cope, to survive, to be strong for the ones who needed
+                    her. And like a fortified city, she built a wall around
+                    herself. It kept the pain away.
+                  </p>
+                  <p className="mb-12 font-medium lg:text-lg text-secondary lg:text-left md:text-lg md:text-center">
+                    Yet little by little, a seemingly losing battle, light is
+                    seeping into this walled city. Despite the resistance of
+                    unbelief, beyond the panic of change, freedom dawns.
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://selar.co/SHTM-NO"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        GET YOUR COPY
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         {/* Ask your questions */}
         <div className="">

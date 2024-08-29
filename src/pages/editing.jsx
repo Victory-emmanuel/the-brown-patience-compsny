@@ -172,7 +172,7 @@ const Editing = () => {
               </div>
             </div>
             {/* SECTION 2 */}
-            <div className="mt-16 grid ss:px-12  xx:px-6  place-self-center  gap-8 sm:w-2/3  md:w-full md:grid-cols-2 md:-mx-8 lg:grid-cols-4">
+            {/* <div className="mt-16 grid ss:px-12  xx:px-6  place-self-center  gap-8 sm:w-2/3  md:w-full md:grid-cols-2 md:-mx-8 lg:grid-cols-4">
               <div
                 style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.75)" }}
                 className="p-8 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
@@ -286,7 +286,7 @@ const Editing = () => {
                   Contact Me
                 </button>
               </div>
-            </Link>
+            </Link> */}
           </div>
         </section>
         {/* My services */}
@@ -513,9 +513,8 @@ const Editing = () => {
                     Mine is to ensure you write that important book, that you
                     share that necessary message. And the ways I help you are
                     editing, collaboration, ghostwriting, and transcription.
-                    <i className="text-accent">
-                      “Okay, I’m in. how do we do this?” I hear you ask.
-                    </i>
+                    <i className=" mx-2">“Okay, I’m in. how do we do this?”</i>I
+                    hear you ask.
                   </p>
                 </div>
 
@@ -705,7 +704,8 @@ const Editing = () => {
                 work as we go. If you like how it’s going, we carry on.
               </p>
               <p className=" text-secondary mt-4">
-                No, we can’t afford to let a comma be in the wrong place.
+                Editing is the polishing phase. No, we can’t afford to let a
+                comma be in the wrong place.
               </p>
             </div>
             <div className="bg-extraClr p-6 rounded-lg">
@@ -719,15 +719,12 @@ const Editing = () => {
                 your hand the very thing you’ve been longing to write. This is
                 the point where you happily promise to refer me to everyone
                 who’ll need this service or like one of my clients, you say to
-                me, “We will do big things together, Patience.”
+                me, “We will do big things together, Patience.” Cheers to that!
               </p>
-              <p className=" text-secondary mt-4">
-                Editing is the polishing phase. No, we can’t afford to let a
-                comma be in the wrong place.
-                <br />
-                Cheers to that!
+
+              <p className="  mt-4 text-lg  text-accent font-semibold">
+                Get started now!
               </p>
-              <p className=" text-secondary mt-4">Get started now!</p>
               <p className=" text-secondary mt-4">
                 Let’s talk. Tell me about the book you’ve been desiring to
                 write, the message you’ve been yearning to share. Let me ensure

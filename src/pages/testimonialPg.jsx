@@ -1,12 +1,12 @@
 import Email from "../components/email";
 import MySlider from "../components/mySlider";
-import Section2 from "../components/testimonialPgSects/section2";
+// import Section2 from "../components/testimonialPgSects/section2";
 
 const TestimonialPg = () => {
   return (
     <div>
       <MySlider />
-      <Section2 />
+      {/* <Section2 /> */}
       {/* Ask your questions */}
       <div className="">
         <Email />
