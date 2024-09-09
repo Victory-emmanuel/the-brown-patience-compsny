@@ -166,8 +166,7 @@ const Footer = () => {
 
               <div className="text-center">
                 <span className=" text-sm tracking-wide">
-                  Copyright © emmanuel <span id="year"></span> | All right
-                  reserved
+                  Copyright © 2024 <span id="year"></span>
                 </span>
               </div>
             </div>
